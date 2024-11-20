@@ -15,7 +15,7 @@ public class CalcPi {
 			den+=2;
 		}
 		System.out.println("pi according to Java: "+Math.PI+"\n"+
-		"pi, approximated: "+pi*4);
+		"pi, approximated:     "+pi*4);
 		
 	}
 }

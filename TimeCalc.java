@@ -2,9 +2,10 @@
 public class TimeCalc {
 
     public static void main(String[] args) {
-        int hours = Integer.parseInt(args[0]);
-        int minutes = Integer.parseInt(args[1]);
-        int addminutes = Integer.parseInt(args[2]);
+        String time =args[0];
+        int hours = Integer.parseInt(time.split(":")[0]);
+        int minutes =Integer.parseInt( time.split(":")[1]);
+        int addminutes = Integer.parseInt(args[1]);
         minutes = minutes + addminutes;
 
         hours += minutes / 60;
