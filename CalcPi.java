@@ -3,7 +3,7 @@
 public class CalcPi {
 
     public static void main(String[] args) {
-        int numbers = 10;
+        int numbers = Integer.parseInt(args[0]);
         double pi = 1;
         double den = 3;
 		
