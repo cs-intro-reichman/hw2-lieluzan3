@@ -8,11 +8,11 @@ public class Cheers {
                 while(name1.length()>0){
                         char firstchar=name1.charAt(0);
                         if(firstchar=='A'||firstchar=='E'||firstchar=='F'||firstchar=='H'||firstchar=='I'||firstchar=='L'||firstchar=='M'||firstchar=='N'||firstchar=='O'||firstchar=='R'||firstchar=='S'||firstchar=='X'){
-                                 System.out.println("Give me an "+firstchar+" : "+firstchar+" !");
+                                 System.out.println("Give me an "+firstchar+": "+firstchar+" !");
 
                         }
                         else
-                        System.out.println("Give me a "+firstchar+" : "+firstchar+" !");
+                        System.out.println("Give me a "+firstchar+": "+firstchar+" !");
                 name1=name1.substring(1);
                 }
 
