@@ -1,7 +1,8 @@
 
 public class Cheers {
         public static void main(String[] args) {
-                //
+                //input variable of the word we spell
+                //input how many time to whire the name
                 String name=args[0];
                 int times= Integer.parseInt(args[1]);
                 String name1=name.toUpperCase();

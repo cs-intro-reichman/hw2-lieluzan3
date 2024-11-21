@@ -2,9 +2,12 @@
 public class Collatz {
 
     public static void main(String args[]) {
+		//seeds is the input of which numbers we going to do the collatz
+		//printway is the input if to ptint the calculate of not
         int seeds = Integer.parseInt(args[0]);
         String printway = args[1];
         final String VERBOSE = "v";
+		//num is a variable that helps calculate the numbers in a row
         int num ;
 		
         for (int i = 1; i <= seeds; i++) {

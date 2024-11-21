@@ -4,6 +4,8 @@ public class CalcPi {
 
     public static void main(String[] args) {
         int numbers = Integer.parseInt(args[0]);
+		//pi is the number we used to calculate the number
+		//de is the denominator of the fraction
         double pi = 1;
         double den = 3;
 		
